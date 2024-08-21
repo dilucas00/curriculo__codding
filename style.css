@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.container{
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+}
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 2px
+    ;
+}
+.sobre__mim{
+    margin: 10px;
+    
+}
+.formacao{
+    margin: 10px;
+}
+.divisao__linha{
+    width: 100vw;
+}
+.imagem__curriculo{
+    
+    border-radius: 100%;
+}
