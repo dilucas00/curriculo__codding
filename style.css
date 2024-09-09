@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -8,6 +8,9 @@
 }
 .home{
     background: fixed;
+}
+html{
+    scroll-behavior: smooth;
 }
 
 
@@ -127,4 +130,76 @@
 }
 span{
     color: rgb(90, 221, 73);
+}
+
+.contato{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    padding-top: 150px;
+}
+.card{
+    transition: border 1s ease-out;
+    align-items: flex-start;
+}
+.card:hover{
+    border: 2px solid #5add49;
+}
+.card-body{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    border-radius: 10px;
+    
+}
+.container-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 200px;
+    color: aliceblue;
+    gap: 15px;
+    padding-top: auto;
+    
+}
+input{
+    width: 50%;
+    height: 3rem;
+    border: 1px solid rgb(139, 138, 136);
+    border-radius: 3px;
+    padding: 10px;
+    background-color: transparent;
+}
+textarea{
+    width: 50%;
+    height: 7rem;
+    border: 1px solid rgb(139, 138, 136);
+    border-radius: 3px;
+    padding: 15px;
+    background-color: transparent;
+
+}
+.botao-contato{
+    width: 220px;
+    height: 60px;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.titulo-contato{
+    font-weight: 700;
+    font-size: 68px;
+}
+.contato-animacao{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.img-contato{
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100vw;
+
 }
